@@ -1,0 +1,23 @@
+# Ignore node_modules if you have any JS dependencies
+node_modules/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore build/dist folders if any (adjust if needed)
+dist/
+build/
+
+# Ignore logs
+*.log
+
+# Ignore environment files if any
+.env
+
+# Do NOT ignore _metadata folder — keep all metadata and rules
+!_metadata/
